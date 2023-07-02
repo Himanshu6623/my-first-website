@@ -1,0 +1,178 @@
+.frame-child8 {
+  position: absolute;
+  top: 180px;
+  left: 0;
+  background-color: #090808;
+  width: 1960px;
+  height: 900px;
+}
+.frame-child10,
+.frame-child9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 1960px;
+  height: 180px;
+}
+.frame-child10 {
+  top: 2px;
+}
+.class,
+.collage,
+.my-first-figma {
+  position: absolute;
+  display: inline-block;
+}
+.my-first-figma {
+  margin: 0;
+  top: calc(50% - 476px);
+  left: 382px;
+  font-size: 96px;
+  font-weight: 800;
+  font-family: inherit;
+  background: linear-gradient(180deg, #1b08f4, rgba(245, 8, 65, 0.84));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 888px;
+  height: 92px;
+}
+.class,
+.collage {
+  cursor: pointer;
+  top: 485px;
+  left: 80px;
+  font-weight: 500;
+  width: 188px;
+  height: 40px;
+}
+.collage {
+  top: 696px;
+  width: 268px;
+  height: 60px;
+}
+.frame-child11,
+.frame-child12,
+.frame-child13 {
+  position: absolute;
+  top: 255px;
+  left: 426px;
+  background-color: var(--color-gainsboro);
+  width: 720px;
+  height: 120px;
+}
+.frame-child12,
+.frame-child13 {
+  top: 473px;
+}
+.frame-child13 {
+  top: 691px;
+}
+.enter-your-branch,
+.enter-your-collage,
+.enter-your-name {
+  border: 0;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-29xl);
+  background-color: transparent;
+  position: absolute;
+  top: 251px;
+  left: 426px;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 720px;
+  height: 124px;
+}
+.enter-your-branch,
+.enter-your-collage {
+  top: 471px;
+  left: 430px;
+  width: 716px;
+  height: 122px;
+}
+.enter-your-collage {
+  top: 696px;
+  height: 124px;
+}
+.frame-child14,
+.rectangle-a {
+  position: absolute;
+  top: 880px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(180deg, #0d08f4, #f40824);
+  width: 364px;
+  height: 112px;
+  cursor: pointer;
+}
+.frame-child14 {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 292px;
+}
+.rectangle-a {
+  text-decoration: none;
+  left: 720px;
+}
+.submit1 {
+  position: absolute;
+  top: 908px;
+  left: 372px;
+  font-weight: 800;
+  display: inline-block;
+  width: 320px;
+  height: 80px;
+}
+.frame-child15 {
+  position: absolute;
+  top: 55px;
+  left: 70px;
+  background-color: var(--color-gray-200);
+  width: 110px;
+  height: 110px;
+}
+.hp2,
+.name,
+.snist {
+  position: absolute;
+  font-weight: 800;
+  display: inline-block;
+}
+.hp2 {
+  cursor: pointer;
+  top: 68px;
+  left: 80px;
+  font-size: var(--font-size-45xl);
+  background: linear-gradient(180deg, #041dff, #ff0303);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 100px;
+  height: 61px;
+}
+.name,
+.snist {
+  top: 912px;
+  left: 826px;
+  width: 320px;
+  height: 80px;
+}
+.name {
+  top: 273px;
+  left: 80px;
+  font-weight: 500;
+  width: 212px;
+  height: 48px;
+}
+.rectangle-top {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

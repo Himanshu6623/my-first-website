@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./frame-3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="rectangle-parent">
+      <div class="frame-child"></div>
+      <button class="frame-item" autofocus id="rectangleButton"></button>
+      <div class="go-back">GO BACK</div>
+      <div class="frame-inner"></div>
+      <label class="hp">HP</label>
+      <div class="rectangle-div"></div>
+      <label class="himanshu-parida">HIMANSHU PARIDA</label>
+    </div>
+
+    <script>
+      var rectangleButton = document.getElementById("rectangleButton");
+      if (rectangleButton) {
+        rectangleButton.addEventListener("click", function (e) {
+          window.location.href = "./frame-2.html";
+        });
+      }
+      </script>
+  </body>
+</html>

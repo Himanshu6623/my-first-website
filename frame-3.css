@@ -1,0 +1,79 @@
+.frame-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #042cff, #ff0303 94.27%);
+  width: 1960px;
+  height: 1080px;
+}
+.frame-item {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 91px;
+  left: 994px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(180deg, #0904ff, #fa0505);
+  width: 364px;
+  height: 112px;
+}
+.go-back {
+  position: absolute;
+  top: 123px;
+  left: 1064px;
+  font-size: var(--font-size-29xl);
+  font-weight: 800;
+  display: inline-block;
+  width: 299px;
+  height: 78px;
+}
+.frame-inner {
+  position: absolute;
+  top: 91px;
+  left: 46px;
+  background-color: var(--color-gray-200);
+  width: 110px;
+  height: 110px;
+}
+.hp {
+  cursor: pointer;
+  position: absolute;
+  top: 104px;
+  left: 56px;
+  font-weight: 800;
+  background: linear-gradient(180deg, #041dff, #ff0303);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 100px;
+  height: 61px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 251px;
+  left: 0;
+  border-radius: 30px;
+  background-color: var(--color-black);
+  width: 1960px;
+  height: 866px;
+}
+.himanshu-parida {
+  cursor: pointer;
+  position: absolute;
+  top: 287px;
+  left: 46px;
+  font-weight: 800;
+}
+.rectangle-parent {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
